@@ -21,3 +21,17 @@
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+    display: flex;
+}
+
+.ctverecek { 
+    flex-basis:  25%;
+}
+
+.druhy,
+.treti,
+.ctvrty {
+    flex-shrink: 0;
+}
+
